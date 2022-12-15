@@ -1,29 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DE-VE-DE</title>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <h1>DE-VE-DE</h1>
+    <p class="p">Make Your Own MovieBuff!</p>
     <nav>
-        <h1>HELLO</h1>
+      <section>
+        <input type="text" placeholder="title" id="title" />
+        <input type="text" placeholder="genre" id="genre" />
+        <input type="date" id="date" />
+        <button id="watchList">Add to your Watchlist</button>
+        <button id="showMyList">Show Watch List</button>
 
-
-
+      </section>
     </nav>
+    <aside class="title">
+        <h2>Watchlist</h2>
+    </aside>
+    
+    <section class="hide">
+      <ul id="movieSection"></ul>
+    </section>
+
+  
+    <main>
+      <article>
+        <img src="/img/Ghostbusters.jpg" />
+       
+      </article>
+
+      <article>
+        <img src="/img/Terrifier-2-DVD-Packshot-2.jpeg" />
+       
+      </article>
+
+      <article>
+        <img src="/img/She said.jpeg" />
+       
+      </article>
+
+      <article>
+        <img src="/img/barbarian.jpg" />
+        
+      </article>
+
+      <article>
+        <img src="/img/Sea beast.jpg" />
+        
+      </article>
+
+      <article>
+        <img src="/img/Hustle.jpg" />
+       
+      </article>
+    </main>
+    <hr />
 
 
+    <footer>
+      <article>
+        <ul>
+          <li>About us</li>
+          <li>contact</li>
+          <li>FAQ</li>
+        </ul>
+      </article>
+      <article>
+        <p>
+          Adress
+          <br />
+          <br />
+          Vaniljgatan 32<br />
+          43215 Göteborg
+        </p>
+      </article>
+      <article>
+        <h2>
+          Social Media
+          <br />
+          <br />
+          <img src="/img/logo-facebook.svg" />
+          <img src="/img/logo-instagram.svg" />
+          <img src="/img/logo-twitter.svg" />
+        </h2>
+      </article>
+    </footer>
 
-
-
-
-
-
-
-
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
     <script type="module" src="/js/index.js"></script>
-</body>
+  </body>
 </html>
