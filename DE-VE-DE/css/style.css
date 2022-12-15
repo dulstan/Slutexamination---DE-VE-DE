@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background-color: rgb(46, 46, 133);
+}
+.movieName {
+  font-size: large;
+  color: aqua;
+  width: 10rem;
+}
+.dateSection {
+  margin-top: -3rem;
+}
+#movieSection {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-left: 25%;
+}
+
+.deleteBTN {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  width: 6rem;
+  background-color: #ce6363;
+  margin-bottom: 3rem;
+  margin-top: -3rem;
+  border: none;
+}
+
+nav {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19, 19, 91);
+  color: white;
+}
+body h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(19, 19, 91);
+  color: aliceblue;
+  padding-top: 2rem;
+  font-size: 50px;
+}
+.p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(19, 19, 91);
+  color: rgb(107, 169, 205);
+  padding-top: 2rem;
+  font-size: x-large;
+}
+input {
+  border-radius: 10px;
+  height: 4rem;
+  width: 10rem;
+  text-align: center;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+  }
+  
+#watchList {
+  border-radius: 10px;
+  height: 4rem;
+  width: 10rem;
+}
+#showMyList {
+  border-radius: 10px;
+  height: 4rem;
+  width: 10rem;
+}
+
+main {
+  margin: 4rem auto;
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+}
+main article {
+  grid-column: auto / span 2;
+}
+main article img {
+  width: 100%;
+  height: 350px;
+}
+article p {
+  height: 6rem;
+}
+
+.watchNowBtn {
+  padding: 0.5rem 1rem;
+  background-color: #eb2f2f;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+footer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+footer article {
+  display: flex;
+  justify-content: center;
+}
+footer article ul {
+  list-style: none;
+}
+hr {
+  background-color: black;
+  height: 5px;
+  opacity: 0.5;
+}
+
+
